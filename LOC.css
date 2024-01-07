@@ -1,0 +1,110 @@
+h1{
+    color:#5a3627;
+    font-size: 60px;
+}
+
+h2{
+    color:#5a3627
+}
+
+p{
+    font-size:relative;
+    word-spacing: 5px;
+}
+
+.review{
+    font-size:15px;
+}
+
+body{
+    background-color:#65d6c7;
+    margin: 0;
+}
+
+/* NAV BAR */
+
+nav{
+    overflow: hidden;
+    background-color:#bf9888;
+}
+
+nav a{
+    float:left;
+    display:block;
+    color: #26231F;
+    text-align: center;
+    width:25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size:20px
+}
+
+nav a:hover {
+    background-color:#804f3b;
+    color: bisque;
+}
+
+#home a{
+    width:100%;
+    }
+
+/*MOUNTAIN PICTURE*/
+
+.column{
+    float: left;
+    width:66%;
+    padding:5px;
+}
+
+#mountain{
+    width:33%
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.imageRight{
+    width:15%;
+    float:left;
+}
+
+.imageleft{
+    float:left; 
+    padding-right:80px; 
+    padding-left:5px;
+}
+
+#left{
+    float:left;
+}
+
+.content{
+    padding:5px;
+}
+
+p.content{
+    padding-left:10px;
+}
+
+img{
+    margin:5px;
+}
+
+.aboutus{
+    background-color:antiquewhite;
+    margin:10px;
+    padding:4px;
+    width: 97.5%;
+}
+
+.robbie{
+    background-color:antiquewhite;
+    margin:15px;
+}
+
+.marion{
+    background-color:antiquewhite;
+    margin:15px;
+}
