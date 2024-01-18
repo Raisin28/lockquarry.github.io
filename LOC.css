@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 .imageleft{
-    float:left; 
+    float:right; 
     padding-right:80px; 
     padding-left:5px;
 }
@@ -99,18 +99,10 @@ img.aboutus{
     padding:4px;
     width: 97.5%;
     overflow: hidden;
-}
-
-.robbie{
-    background-color:antiquewhite;
-    margin:15px;
-}
-
-.marion{
-    background-color:antiquewhite;
-    margin:15px;
+    border-radius: 10px;
 }
 
 ul{
     text-decoration:none;
+    font-size: 10vw;
 }
