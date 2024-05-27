@@ -1,101 +1,154 @@
-*{
-    background-color:#397165;
+    body{
+        background:url("luca-bravo-WeFDiEDModQ-unsplash.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-blend-mode:darken;
+        background-color:rgba(0,0,0,0.5);
+    }
+    
+
+    
+    h1{
+        font-size:60px;
+        margin-bottom:10px;
+        text-align:center;
+        color:aliceblue;
+    }
+    
+    
+    a{
+        display:block;
+        float:left;
+        width:100%;
+        text-align:center;
+        font-size:25px;
+        color:aliceblue;
+        text-decoration: none;
+        padding:10px 0px 10px 0px;
+        border-color: aliceblue;
+        border-width:2px;
+        border-style:solid;
+        border-left:none;
+        border-right:none;
+        transition:background-color 0.5s;
+        background-color:rgba(0,0,0,0.3);
+    }  
+
+    #links a{
+        width:25%;
 }
 
-h1{
-    color:#5a3627;
-    font-size: 60px;
+    body{
+        margin:0px;
+    }
+    
+    a:hover{
+        background-color:rgba(0,0,0,0.5);
+        transition:background-color 0.5s;
+    }
+    
+.content{
+    width:auto;
+    height:auto;
+    float:left;
+    margin:2%;
+    border-color:aliceblue;
+    border-style:solid;
+    color:aliceblue;
+    text-align:center;
+    background-color:rgba(0,0,0,0.25);    
+    
 }
 
 h2{
-    color:#5a3627
+    text-align:center;
+    font-size:30;
+    border-bottom-color: aliceblue;
+    border-bottom-style:solid;
+    width:50%;
+    margin:2% 25% 0%;
+}
+
+h3{
+    border-bottom-color:aliceblue;
+    border-bottom-style:solid;
+    font-size:30px;
+    padding-bottom:5px;
+}
+
+#home{
+    margin:30px;
+    border-radius: 1% 70px;
+    border: aliceblue solid 3px;
+}
+
+.column{
+    width:31%;
+    float:left;
+    text-align:center;
+    margin:1%;
+    flex:1;
+    height:auto;
 }
 
 p{
-    font-size:relative;
-    word-spacing: 5px;
+    font-size:25px;
 }
 
-.review0{
-    font-size:15px;
-}
-
-
-/* NAV BAR */
-
-nav{
-    overflow: hidden;
-    background-color:#bf9888;
-}
-
-nav a{
-    float:left;
-    display:block;
-    color: #26231F;
-    text-align: center;
-    width:25%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-decoration: none;
-    font-size:20px
-}
-
-nav a:hover {
-    background-color:#804f3b;
-    color: bisque;
-}
-
-#home a{
+.contact{
+    background-color:rgba(25,30,30,1);
     width:100%;
-    }
-
-/*MOUNTAIN PICTURE*/
-
-.column{
-    float: left;
-    width:66%;
-    padding:5px;
-}
-
-#mountain{
-    width:33%
-}
-
-* {
-  box-sizing: border-box;
-}
-
-#left{
     float:left;
+    position:fixed;
+    bottom:0;
 }
 
-#right{
-    float:right
+#review{
+    font-size:18px; 
+    border-top-style:solid;
+    border-top-width:thin;
+    width:90%;
+    margin:5%;
+    padding-top:5px;
+    position:absolute;
+    bottom:0;
 }
 
-.content{
-    padding:5px;
+
+#groupSize{
+    font-size:20px;
+    border-top-style:solid;
+    border-width:2px;
+
 }
 
-p.content{
-    padding-left:10px;
+*{
+    color:aliceblue;
+    text-align:center;
 }
 
-img.aboutus{
-    margin:5px;
-    width: 15%
+@media screen and (max-width: 600px) {
+    .column{
+        width:100%;
+    }
+    
 }
 
-.aboutus{
-    background-color:antiquewhite;
-    margin:10px;
-    padding:4px;
-    width: 97.5%;
-    overflow: hidden;
-    border-radius: 10px;
+#boat{
+        width:100%;
+        float:left;
+    }
+/*
+img{
+    position:fixed;
+    left:0;
+}
+*/
+
+.thecolumns{
+    display:flex;
 }
 
-ul{
-    list-style-type:none;
-    font-size: 2vw;
+#activeInfo{
+    height:60%;
 }
