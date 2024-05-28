@@ -1,4 +1,4 @@
-    body{
+       body{
         background:url("luca-bravo-WeFDiEDModQ-unsplash.jpg");
         background-size:cover;
         background-repeat:no-repeat;
@@ -56,8 +56,8 @@
     border-style:solid;
     color:aliceblue;
     text-align:center;
-    background-color:rgba(0,0,0,0.25);    
-    
+    background-color:rgba(0,0,0,0.25);
+    margin-bottom:10%;
 }
 
 h2{
@@ -69,27 +69,8 @@ h2{
     margin:2% 25% 0%;
 }
 
-h3{
-    border-bottom-color:aliceblue;
-    border-bottom-style:solid;
-    font-size:30px;
-    padding-bottom:5px;
-}
 
-#home{
-    margin:30px;
-    border-radius: 1% 70px;
-    border: aliceblue solid 3px;
-}
 
-.column{
-    width:31%;
-    float:left;
-    text-align:center;
-    margin:1%;
-    flex:1;
-    height:auto;
-}
 
 p{
     font-size:25px;
@@ -108,18 +89,15 @@ p{
     border-top-style:solid;
     border-top-width:thin;
     width:90%;
-    margin:5%;
+    margin:0% 5% 2%;
     padding-top:5px;
-    position:absolute;
-    bottom:0;
 }
 
 
-#groupSize{
-    font-size:20px;
-    border-top-style:solid;
-    border-width:2px;
-
+img{
+    width:80%;
+    object-fit:cover;
+    max-height:400px;
 }
 
 *{
@@ -134,21 +112,46 @@ p{
     
 }
 
-#boat{
-        width:100%;
-        float:left;
-    }
-/*
-img{
-    position:fixed;
-    left:0;
-}
-*/
+
+
+/*The columns*/
 
 .thecolumns{
     display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.column{
+    text-align:center;
+    margin:1%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items: stretch;
+    flex:1;
+    
+}
+
+h3{
+    border-bottom-color:aliceblue;
+    border-bottom-style:solid;
+    font-size:30px;
+    padding-bottom:5px;
+    height:10%;
 }
 
 #activeInfo{
-    height:60%;
+    flex-direction:stretch;
+    align-self: stretch;
+    height:80%;
+}
+
+#groupSize{
+    font-size:20px;
+    border-top-style:solid;
+    border-width:2px;
+    height:10%
+
 }
