@@ -1,52 +1,59 @@
-       body{
-        background:url("luca-bravo-WeFDiEDModQ-unsplash.jpg");
-        background-size:cover;
-        background-repeat:no-repeat;
-        background-blend-mode:darken;
-        background-color:rgba(0,0,0,0.5);
-    }
-    
+/*Backgroun image*/
+body{
+       background:url("backgroundImage.jpg");
+       background-size:cover;
+       background-repeat:no-repeat;
+       background-blend-mode:darken;
+       background-color:rgba(0,0,0,0.5);
+}
 
-    
-    h1{
-        font-size:60px;
-        margin-bottom:10px;
-        text-align:center;
-        color:aliceblue;
+
+/*rules for all text or website*/
+*{
+    color:aliceblue;
+    text-align:center;
+}
+
+
+/*name of centre*/ 
+h1{
+       font-size:60px;
+       margin-bottom:10px;
     }
-    
-    
-    a{
-        display:block;
-        float:left;
-        width:100%;
-        text-align:center;
-        font-size:25px;
-        color:aliceblue;
-        text-decoration: none;
-        padding:10px 0px 10px 0px;
-        border-color: aliceblue;
-        border-width:2px;
-        border-style:solid;
-        border-left:none;
-        border-right:none;
-        transition:background-color 0.5s;
-        background-color:rgba(0,0,0,0.3);
+
+
+/*Page links*/
+a{
+       display:block;
+       float:left;
+       width:100%;
+       font-size:25px;
+       text-decoration: none;
+       padding:10px 0px 10px 0px;
+       border-color: aliceblue;
+       border-width:2px;
+       border-style:solid;
+       border-left:none;
+       border-right:none;
+       transition:background-color 0.5s;
+       background-color:rgba(0,0,0,0.3);
     }  
 
-    #links a{
+
+/*internal links on homepage*/
+#links a{
         width:25%;
 }
 
-    body{
-        margin:0px;
-    }
-    
-    a:hover{
+
+/*highlighing link or hover*/
+a:hover{
         background-color:rgba(0,0,0,0.5);
         transition:background-color 0.5s;
     }
-    
+
+
+/*mainc content box*/
 .content{
     width:auto;
     height:auto;
@@ -54,14 +61,13 @@
     margin:2%;
     border-color:aliceblue;
     border-style:solid;
-    color:aliceblue;
-    text-align:center;
     background-color:rgba(0,0,0,0.25);
     margin-bottom:10%;
 }
 
+
+/*heading of page*/
 h2{
-    text-align:center;
     font-size:30;
     border-bottom-color: aliceblue;
     border-bottom-style:solid;
@@ -70,41 +76,21 @@ h2{
 }
 
 
-
-
+/*general text size*/
 p{
     font-size:25px;
 }
 
-.contact{
-    background-color:rgba(25,30,30,1);
-    width:100%;
-    float:left;
-    position:fixed;
-    bottom:0;
-}
 
-#review{
-    font-size:18px; 
-    border-top-style:solid;
-    border-top-width:thin;
-    width:90%;
-    margin:0% 5% 2%;
-    padding-top:5px;
-}
-
-
+/*sizeing for all images apart from background*/
 img{
     width:80%;
     object-fit:cover;
     max-height:400px;
 }
 
-*{
-    color:aliceblue;
-    text-align:center;
-}
 
+/*resizing or columns for web pages*/
 @media screen and (max-width: 600px) {
     .column{
         width:100%;
@@ -114,8 +100,9 @@ img{
 
 
 
-/*The columns*/
+/*The column sections*/
 
+/*column container*/
 .thecolumns{
     display:flex;
     flex-direction:row;
@@ -123,6 +110,8 @@ img{
     justify-content:space-around;
 }
 
+
+/*the column itself*/
 .column{
     text-align:center;
     margin:1%;
@@ -134,6 +123,8 @@ img{
     
 }
 
+
+/*Inside the column*/
 h3{
     border-bottom-color:aliceblue;
     border-bottom-style:solid;
@@ -154,4 +145,25 @@ h3{
     border-width:2px;
     height:10%
 
+}
+
+
+/*customer reviews*/
+#review{
+    font-size:18px; 
+    border-top-style:solid;
+    border-top-width:thin;
+    width:90%;
+    margin:0% 5% 2%;
+    padding-top:5px;
+}
+
+
+/*contact information for boooking*/
+.contact{
+    background-color:rgba(25,30,30,1);
+    width:100%;
+    float:left;
+    position:fixed;
+    bottom:0;
 }
