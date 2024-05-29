@@ -1,10 +1,11 @@
-/*Backgroun image*/
+/*Backgroun image + margin*/
 body{
-       background:url("backgroundImage.jpg");
+       background:url("Images/backgroundImage.jpg");
        background-size:cover;
        background-repeat:no-repeat;
        background-blend-mode:darken;
        background-color:rgba(0,0,0,0.5);
+       margin:0px;
 }
 
 
